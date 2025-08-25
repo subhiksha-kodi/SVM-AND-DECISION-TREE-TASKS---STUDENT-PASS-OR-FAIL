@@ -39,35 +39,7 @@ Based on these inputs, the trained Decision Tree model predicts whether the stud
 
 ## 📊 Visualizations  
 
-### 1️⃣ Distribution of Hours Studied  
-Most students studied between **2–8 hours**. Students who studied more hours had a higher chance of passing.  
-
-![Hours Studied Distribution](da352702-8ca3-4ebc-a4c8-308ec99df82f.png)  
-
----
-
-### 2️⃣ Distribution of Sleep Hours  
-Most students reported sleeping between **5–8 hours**. Proper rest also contributed to better results.  
-
-![Sleep Hours Distribution](2fcace71-3841-497d-9017-66bf90d298a7.png)  
-
----
-
-### 3️⃣ Distribution of Attendance  
-Higher attendance strongly correlated with passing the exam. Students with **low attendance** were more likely to fail.  
-
-![Attendance Distribution](1936d2e6-106b-4ca7-a955-f3810dd97120.png)  
-
----
-
-### 4️⃣ Distribution of Pass/Fail Outcomes  
-The dataset is slightly imbalanced, with more students **passing** than failing.  
-
-![Pass/Fail Distribution](7de8e60d-5429-483d-a133-bca3ee1113e4.png)  
-
----
-
-### 5️⃣ Decision Tree Visualization  
+### 1️⃣ Decision Tree Visualization  
 The trained Decision Tree splits data mainly on **Attendance** and **Hours Studied** to decide pass/fail outcomes.  
 
 ![Decision Tree](112b38d4-edce-4f47-b756-d7cf5e5d77db.png)  
