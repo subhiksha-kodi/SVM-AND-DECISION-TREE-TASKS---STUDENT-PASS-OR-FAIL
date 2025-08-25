@@ -33,7 +33,7 @@ The dataset includes the following features:
 The Streamlit web app allows users to input **Hours Studied**, **Sleep Hours**, and **Attendance %**.  
 Based on these inputs, the trained Decision Tree model predicts whether the student will **Pass or Fail**.  
 
-![Streamlit App Screenshot](Screenshot%202025-08-25%20170244.png)  
+![Streamlit App Screenshot](plots/streamlit.png)  
 
 ---
 
@@ -42,7 +42,7 @@ Based on these inputs, the trained Decision Tree model predicts whether the stud
 ### 1️⃣ Decision Tree Visualization  
 The trained Decision Tree splits data mainly on **Attendance** and **Hours Studied** to decide pass/fail outcomes.  
 
-![Decision Tree](112b38d4-edce-4f47-b756-d7cf5e5d77db.png)  
+![Decision Tree](plots/decision_tree.png)  
 
 ---
 
