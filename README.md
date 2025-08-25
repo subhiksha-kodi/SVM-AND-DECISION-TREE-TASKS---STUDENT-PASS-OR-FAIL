@@ -24,51 +24,29 @@ The model was saved using **Pickle** (`model.pkl`, `scaler.pkl`) and deployed as
 
 ---
 
-## ⚙️ Installation & Usage
+## 🧑‍💻 Example Usage
+1. Enter **Hours Studied** (e.g., `6.5`)  
+2. Enter **Sleep Hours** (e.g., `7.0`)  
+3. Select **Class Attendance %** (e.g., `80`)  
+4. Click **Predict Result**  
 
-### 1️⃣ Clone the repository
-```bash
-git clone <your-repo-link>
-cd <your-repo-folder>
-2️⃣ Install dependencies
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3️⃣ Run the Streamlit App
-bash
-Copy
-Edit
-streamlit run app.py
-🧑‍💻 Example Usage
-Enter Hours Studied (e.g., 6.5)
+✅ Output: **PASS 🎉** or **FAIL 📉**  
 
-Enter Sleep Hours (e.g., 7.0)
+---
 
-Select Class Attendance % (e.g., 80)
+## 📊 Model Performance
+The model was evaluated using:  
+- Accuracy  
+- Precision  
+- Recall  
+- F1 Score  
 
-Click Predict Result
+*(You can add the actual values from your training notebook results.)*  
 
-✅ Output: PASS 🎉 or FAIL 📉
+---
 
-📊 Model Performance
-The model was evaluated using:
-
-Accuracy
-
-Precision
-
-Recall
-
-F1 Score
-
-(You can add the actual values from your training notebook results.)
-
-📌 Tech Stack
-Python 🐍
-
-Scikit-learn 🤖
-
-Streamlit 🌐
-
-Pickle 📦
+## 📌 Tech Stack
+- Python 🐍  
+- Scikit-learn 🤖  
+- Streamlit 🌐  
+- Pickle 📦  
