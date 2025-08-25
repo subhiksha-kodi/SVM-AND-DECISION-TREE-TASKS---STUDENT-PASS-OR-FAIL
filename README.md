@@ -1,4 +1,4 @@
-# 📘 Student Exam Pass/Fail Predictor
+<img width="1920" height="1128" alt="image" src="https://github.com/user-attachments/assets/206d543b-c224-4d5b-acd1-efe2176f8fd3" /># 📘 Student Exam Pass/Fail Predictor
 
 ## 🔹 Project Overview  
 This project predicts whether a **student will pass or fail an exam** based on:  
@@ -30,37 +30,45 @@ The model was saved using **Pickle** (`model.pkl`, `scaler.pkl`) and deployed as
 ```bash
 git clone <your-repo-link>
 cd <your-repo-folder>
-
-### 2️⃣ Install dependencies
-```bash
+2️⃣ Install dependencies
+bash
+Copy
+Edit
 pip install -r requirements.txt
-
-### 3️⃣ Run the Streamlit App
+3️⃣ Run the Streamlit App
+bash
+Copy
+Edit
 streamlit run app.py
+🧑‍💻 Example Usage
+Enter Hours Studied (e.g., 6.5)
 
-## 🧑‍💻 Example Usage
-1. Enter **Hours Studied** (e.g., `6.5`)  
-2. Enter **Sleep Hours** (e.g., `7.0`)  
-3. Select **Class Attendance %** (e.g., `80`)  
-4. Click **Predict Result**  
+Enter Sleep Hours (e.g., 7.0)
 
-✅ Output: *PASS* 🎉 or *FAIL* 📉  
+Select Class Attendance % (e.g., 80)
 
----
+Click Predict Result
 
-## 📊 Model Performance
-The model was evaluated using:  
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
+✅ Output: PASS 🎉 or FAIL 📉
 
-*(You can add the actual values from your training notebook results.)*
+📊 Model Performance
+The model was evaluated using:
 
----
+Accuracy
 
-## 📌 Tech Stack
-- Python 🐍  
-- Scikit-learn 🤖  
-- Streamlit 🌐  
-- Pickle 📦  
+Precision
+
+Recall
+
+F1 Score
+
+(You can add the actual values from your training notebook results.)
+
+📌 Tech Stack
+Python 🐍
+
+Scikit-learn 🤖
+
+Streamlit 🌐
+
+Pickle 📦
