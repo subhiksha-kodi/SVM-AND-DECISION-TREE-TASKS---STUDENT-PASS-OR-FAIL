@@ -1,74 +1,76 @@
 # 🌳 Decision Tree Pass/Fail Predictor  
 
-This project uses a **Decision Tree Classifier** to predict whether a student will **Pass or Fail** an exam based on study-related features. It is also deployed as an **interactive Streamlit web app**.  
+This project uses a **Decision Tree Classifier** to predict whether a student will **Pass or Fail** an exam based on study-related features.  
+It is also deployed as an **interactive Streamlit web app** for real-time predictions.  
+
+👉 **Try it Live:** [Streamlit App](https://svm-and-decision-tree-tasks---student-pass-or-fail-q3zcwconvf4.streamlit.app/)  
 
 ---
 
 ## 📌 Project Overview  
 The objective of this project is to:  
-- Train a **Decision Tree model** on student data  
+- Train a **Decision Tree model** on student performance data  
 - Predict **Pass/Fail outcomes**  
-- Provide an easy-to-use **Streamlit web app** for testing inputs  
-- Visualize model behavior (tree structure & results)  
+- Provide an interactive **Streamlit web app** for testing inputs  
+- Visualize model behavior with **plots and decision tree graph**  
 
 ---
 
 ## 📂 Dataset  
-The dataset includes student performance features such as:  
+The dataset includes the following features:  
 - 📖 **Hours Studied**  
 - 😴 **Sleep Hours**  
 - 🏫 **Attendance Percentage**  
 - 🎯 **Pass/Fail Label**  
 
-📄 Example dataset: `student_exam_tree.csv`  
+📄 Example dataset file: `student_exam_tree.csv`  
 
 ---
 
-## ⚙️ Installation & Requirements  
+## 📸 Screenshots  
 
-### ✅ Requirements  
-Make sure you have the following installed:  
-- Python 3.8+  
-- numpy  
-- pandas  
-- scikit-learn  
-- streamlit  
-- matplotlib  
+### 🖥️ Streamlit Web App  
+The Streamlit web app allows users to input **Hours Studied**, **Sleep Hours**, and **Attendance %**.  
+Based on these inputs, the trained Decision Tree model predicts whether the student will **Pass or Fail**.  
 
-### 📦 Install dependencies  
-pip install -r requirements.txt
-
-yaml
-Copy
-Edit
+![Streamlit App Screenshot](Screenshot%202025-08-25%20170244.png)  
 
 ---
 
-## 🚀 Usage  
+## 📊 Visualizations  
 
-### 📥 Clone this repository  
-git clone https://github.com/your-username/student-pass-fail-predictor.git
-cd student-pass-fail-predictor
+### 1️⃣ Distribution of Hours Studied  
+Most students studied between **2–8 hours**. Students who studied more hours had a higher chance of passing.  
 
-shell
-Copy
-Edit
+![Hours Studied Distribution](da352702-8ca3-4ebc-a4c8-308ec99df82f.png)  
 
-### ▶️ Run the Streamlit app  
-streamlit run app.py
+---
 
-bash
-Copy
-Edit
+### 2️⃣ Distribution of Sleep Hours  
+Most students reported sleeping between **5–8 hours**. Proper rest also contributed to better results.  
 
-### 🌐 Open in browser  
-http://localhost:8501/
+![Sleep Hours Distribution](2fcace71-3841-497d-9017-66bf90d298a7.png)  
 
-yaml
-Copy
-Edit
+---
 
-Or try the hosted app 👉 [Live Demo](https://svm-and-decision-tree-tasks---student-pass-or-fail-q3zcwconvf4.streamlit.app/)  
+### 3️⃣ Distribution of Attendance  
+Higher attendance strongly correlated with passing the exam. Students with **low attendance** were more likely to fail.  
+
+![Attendance Distribution](1936d2e6-106b-4ca7-a955-f3810dd97120.png)  
+
+---
+
+### 4️⃣ Distribution of Pass/Fail Outcomes  
+The dataset is slightly imbalanced, with more students **passing** than failing.  
+
+![Pass/Fail Distribution](7de8e60d-5429-483d-a133-bca3ee1113e4.png)  
+
+---
+
+### 5️⃣ Decision Tree Visualization  
+The trained Decision Tree splits data mainly on **Attendance** and **Hours Studied** to decide pass/fail outcomes.  
+
+![Decision Tree](112b38d4-edce-4f47-b756-d7cf5e5d77db.png)  
 
 ---
 
@@ -83,9 +85,9 @@ The Decision Tree is evaluated using:
 ---
 
 ## 📝 Future Enhancements  
-- Add more features (assignments, quiz scores, etc.)  
-- Compare with other ML models (Logistic Regression, Random Forest, SVM)  
-- Improve explainability with SHAP values  
-- Enhance UI with interactive charts in Streamlit  
+- Add more features (assignment marks, quiz scores, etc.)  
+- Compare performance with other ML models (Logistic Regression, Random Forest, SVM)  
+- Improve interpretability using SHAP values  
+- Enhance UI with more interactive plots in Streamlit  
 
 ---
