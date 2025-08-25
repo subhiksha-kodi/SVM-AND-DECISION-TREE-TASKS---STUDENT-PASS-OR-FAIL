@@ -1,52 +1,91 @@
-# 📘 Student Exam Pass/Fail Predictor
+# 🌳 Decision Tree Pass/Fail Predictor  
 
-## 🔹 Project Overview  
-This project predicts whether a **student will pass or fail an exam** based on:  
+This project uses a **Decision Tree Classifier** to predict whether a student will **Pass or Fail** an exam based on study-related features. It is also deployed as an **interactive Streamlit web app**.  
+
+---
+
+## 📌 Project Overview  
+The objective of this project is to:  
+- Train a **Decision Tree model** on student data  
+- Predict **Pass/Fail outcomes**  
+- Provide an easy-to-use **Streamlit web app** for testing inputs  
+- Visualize model behavior (tree structure & results)  
+
+---
+
+## 📂 Dataset  
+The dataset includes student performance features such as:  
 - 📖 **Hours Studied**  
 - 😴 **Sleep Hours**  
-- 🏫 **Class Attendance (%)**  
+- 🏫 **Attendance Percentage**  
+- 🎯 **Pass/Fail Label**  
 
-A **Decision Tree Classifier** was trained on sample student data.  
-The model was saved using **Pickle** (`model.pkl`, `scaler.pkl`) and deployed as a **Streamlit Web App**.  
-
----
-
-## 🚀 Live Demo  
-👉 Try the app here: [Student Exam Pass/Fail Predictor](https://svm-and-decision-tree-tasks---student-pass-or-fail-q3zcwconvf4.streamlit.app/)  
+📄 Example dataset: `student_exam_tree.csv`  
 
 ---
 
-## 📂 Files in this Repository
-- `code.ipynb` → Jupyter Notebook with model training & evaluation.  
-- `model.pkl` → Trained Decision Tree model.  
-- `scaler.pkl` → Scaler object used for preprocessing.  
-- `app.py` → Streamlit app for user-friendly prediction.  
+## ⚙️ Installation & Requirements  
+
+### ✅ Requirements  
+Make sure you have the following installed:  
+- Python 3.8+  
+- numpy  
+- pandas  
+- scikit-learn  
+- streamlit  
+- matplotlib  
+
+### 📦 Install dependencies  
+pip install -r requirements.txt
+
+yaml
+Copy
+Edit
 
 ---
 
-## 🧑‍💻 Example Usage
-1. Enter **Hours Studied** (e.g., `6.5`)  
-2. Enter **Sleep Hours** (e.g., `7.0`)  
-3. Select **Class Attendance %** (e.g., `80`)  
-4. Click **Predict Result**  
+## 🚀 Usage  
 
-✅ Output: **PASS 🎉** or **FAIL 📉**  
+### 📥 Clone this repository  
+git clone https://github.com/your-username/student-pass-fail-predictor.git
+cd student-pass-fail-predictor
+
+shell
+Copy
+Edit
+
+### ▶️ Run the Streamlit app  
+streamlit run app.py
+
+bash
+Copy
+Edit
+
+### 🌐 Open in browser  
+http://localhost:8501/
+
+yaml
+Copy
+Edit
+
+Or try the hosted app 👉 [Live Demo](https://svm-and-decision-tree-tasks---student-pass-or-fail-q3zcwconvf4.streamlit.app/)  
 
 ---
 
-## 📊 Model Performance
-The model was evaluated using:  
-- Accuracy  
-- Precision  
-- Recall  
-- F1 Score  
-
-*(You can add the actual values from your training notebook results.)*  
+## 📊 Model Evaluation  
+The Decision Tree is evaluated using:  
+- ✅ Accuracy  
+- ✅ Precision  
+- ✅ Recall  
+- ✅ F1-score  
+- ✅ Confusion Matrix  
 
 ---
 
-## 📌 Tech Stack
-- Python 🐍  
-- Scikit-learn 🤖  
-- Streamlit 🌐  
-- Pickle 📦  
+## 📝 Future Enhancements  
+- Add more features (assignments, quiz scores, etc.)  
+- Compare with other ML models (Logistic Regression, Random Forest, SVM)  
+- Improve explainability with SHAP values  
+- Enhance UI with interactive charts in Streamlit  
+
+---
