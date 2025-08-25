@@ -1,4 +1,4 @@
-<img width="1920" height="1128" alt="image" src="https://github.com/user-attachments/assets/206d543b-c224-4d5b-acd1-efe2176f8fd3" /># 📘 Student Exam Pass/Fail Predictor
+# 📘 Student Exam Pass/Fail Predictor
 
 ## 🔹 Project Overview  
 This project predicts whether a **student will pass or fail an exam** based on:  
